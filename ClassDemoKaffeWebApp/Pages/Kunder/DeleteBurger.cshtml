@@ -1,0 +1,26 @@
+﻿@page
+@model ClassDemoKaffeWebApp.Pages.Kunder.DeleteBurgerModel
+
+
+@{
+}
+
+
+<h1> Slet en kunde </h1>
+
+<form method="post">
+    <div class="form-group>">
+        <label>Burger pris</label> : @Model.burger.Pris<br />
+        <br />
+        <label>Burger navn</label> : @Model.burger.Navn<br />
+        <br />
+        <label>Burger størrelse</label>  : @Model.burger.størrelse<br />
+        <br />
+
+
+        
+        <input type="submit" value="Slet Burger" class="btn btn-danger" asp-page-handler="Delete" asp-route-nummer="@Model.burger.Pris"/>
+        
+        <input type="submit" value="Fortryd" class="btn btn-warning" asp-page-handler="Cancel" />
+    </div>
+</form>

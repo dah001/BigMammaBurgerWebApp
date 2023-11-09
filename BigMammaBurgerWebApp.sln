@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33927.249
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Burgermammawebapp", "ClassDemoKaffeWebApp\Burgermammawebapp.csproj", "{271C4DF9-5D42-4EB8-8201-851A4795FF28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{271C4DF9-5D42-4EB8-8201-851A4795FF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{271C4DF9-5D42-4EB8-8201-851A4795FF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{271C4DF9-5D42-4EB8-8201-851A4795FF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{271C4DF9-5D42-4EB8-8201-851A4795FF28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C5155C6-F194-44CB-997E-41400A243C81}
+	EndGlobalSection
+EndGlobal
